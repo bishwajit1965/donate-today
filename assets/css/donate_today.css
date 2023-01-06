@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+/* Header style
+=============== */
+header {
+  background: linear-gradient(rgba(70, 67, 70, 0.7), rgba(77, 73, 73, 0.7)),
+    url("../images/donation1.jpg"); /* Chrome 10-25, Safari 5.1-6 */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header-slogan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+}
+.wrapper {
+  text-align: center;
+  color: #fff;
+}
+.slogan-tittle {
+  font-family: Impact;
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 3.5rem;
+}
+.slogan {
+  margin: 1.5rem;
+  font-size: 1rem;
+}
+.primary-btn {
+  background-color: #ff5959;
+  color: #fff;
+  width: 150px;
+  padding: 10px 20px;
+  border: 0;
+  margin: 1rem 0rem;
+  border-radius: 0.3rem;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Donate today
+=================== */
+.donate-today {
+  text-align: center;
+  margin: 5rem 25rem;
+}
+.box-wrapper {
+  display: block;
+}
+.donation-tittles {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.donation-category {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+  margin: 2rem 0rem;
+}
+.donation-range {
+  background-color: #ddd;
+  padding: 2rem 1.5rem;
+  border-radius: 0.3rem;
+}
+input[type="text"] {
+  width: 100%;
+  border: 0;
+  padding: 0.5rem;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  margin: 1rem 0rem;
+}
+
+/* Donation plan style
+=======================*/
+.donation-plan {
+  text-align: center;
+  margin: 5rem 10rem;
+}
+.donation-tittle {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.donation-slogan {
+  margin: 2rem 0rem;
+}
+.donation-plans-box {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.donation {
+  width: 400px;
+  background-color: #ddd;
+  padding: 2rem 1.5rem;
+  border-radius: 0.3rem;
+}
+.donation-food {
+  background-color: #edf5f6;
+}
+.donation-shelter {
+  background-color: #ffeeee;
+}
+.donation-frame {
+  background-color: #fff4d6;
+}
+.img-wrapper img {
+  display: block;
+}
+.donation-thumb {
+  margin-bottom: 2rem;
+}
+.donation-description {
+  font-size: 14px;
+  margin-top: 1.2rem;
+}
+
+/* life dependency styles
+========================= */
+.life-dependency-box {
+  text-align: center;
+  margin: 5rem 10rem;
+}
+.life-dependency {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.thumbnail-box,
+.text-box {
+  width: 50%;
+}
+.dependency-header {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.dependency-slogan {
+  font-size: 1rem;
+  margin: 1.5rem;
+}
+.dependency-thumb {
+  width: 100%;
+}
+.secondary-btn {
+  background-color: #ff5959;
+  color: #fff;
+  width: 200px;
+  padding: 10px 20px;
+  border: 0;
+  margin: 20px 0px;
+  border-radius: 0.3rem;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* They need us styles
+======================== */
+.they-need-us {
+  text-align: center;
+  margin: 5rem 10rem;
+}
+
+/* Get my updates
+====================== */
+.get-updates {
+  text-align: center;
+  margin: 5rem 20rem;
+}
+.input-wrapper {
+  background-color: #fff4d6;
+}
+.form-wrapper {
+  padding: 5rem;
+}
+.form-wrapper input[type="email"] {
+  border: 0;
+  padding: 0.5rem;
+  width: 300px;
+}
+.form-wrapper input[type="button"] {
+  border: 0;
+  padding: 0.5rem;
+  background-color: #ff5959;
+  color: #fff;
+}
+
+/* Footer styles
+================= */
+footer {
+  background-color: #000;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-wrapper {
+  padding: 1rem 20rem;
+}
+.footer-title {
+  font-family: Impact;
+  letter-spacing: 2px;
+  font-size: 3.5rem;
+  color: #ff5959;
+  text-align: center;
+  margin: 1rem 0rem;
+}
+.footer-description {
+  color: #fff;
+  text-align: center;
+  margin: 1rem 0rem;
+}

@@ -1,0 +1,69 @@
+@media only screen and (max-width: 560px) {
+  * {
+    padding: 0.1rem;
+  }
+  .slogan-tittle,
+  .donation-tittle,
+  .footer-title,
+  .dependency-header,
+  .footer-title {
+    font-size: 1.5rem;
+    display: block;
+  }
+  .donation {
+    margin: 0.5rem 0rem;
+    width: 100%;
+  }
+  .footer-wrapper {
+    padding: 1rem;
+  }
+  .form-wrapper input[type="email"] {
+    border: 0;
+    padding: 0.5rem;
+    width: 200px;
+  }
+  .donate-today {
+    margin: 0;
+  }
+  .donation-category {
+    display: block;
+  }
+  .donation-range {
+    width: 48%;
+    float: left;
+    margin: 5px;
+  }
+  /* Donation plan */
+  .donation-plan {
+    margin: 0;
+  }
+  .donation-plans-box {
+    display: block;
+  }
+
+  .donation-description {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Life dependency */
+  .life-dependency-box {
+    margin: 0;
+  }
+  .life-dependency {
+    display: block;
+  }
+  .thumbnail-box,
+  .text-box {
+    width: 100%;
+  }
+
+  /* They need us */
+  .they-need-us {
+    margin: 0;
+  }
+  .get-updates {
+    margin: 0;
+  }
+}
